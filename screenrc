@@ -1,0 +1,15 @@
+escape ^\\\
+bindkey "^[^[OD" prev
+bindkey "^[^[OC" next
+
+shelltitle "$ |bash"
+termcapinfo xterm*|rxvt*|kterm*|Eterm* 'hs:ts=\E]0;:fs=\007:ds=\E]0;\007'
+defhstatus "screen ^E (^Et) | $USER@^EH"
+caption always "%{= kw}%-w%{= 9W}%n %t%{-}%+w %-= %d-%M-%Y %c"
+hardstatus off
+hardstatus string '%3n [%= %{= kw}%?%-Lw?%{= kW}%n*%f %t%?%?%{= kw}%?%+Lw%?%?%= ]'
+altscreen on
+term screen-256color
+attrcolor b ".I" 
+terminfo rxvt-unicode 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+startup_message off

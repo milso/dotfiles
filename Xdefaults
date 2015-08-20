@@ -1,0 +1,17 @@
+!URxvt settings
+urxvt*scrollBar: false
+urxvt*font: -*-smoothansi-*-*-*-*-13-*-*-*-*-*-*-*
+urxvt*boldFont: -*-smoothansi-*-*-*-*-13-*-*-*-*-*-*-*
+
+!Clickable links
+urxvt*perl-lib:           /usr/lib/urxvt/perl/
+urxvt*perl-ext-common:    default,matcher
+urxvt*urlLauncher:        /usr/bin/firefox
+urxvt*matcher.button:     1
+URxvt*matcher.pattern.1:     \\bhttps?:\/\/(www.youtube|youtube).com\/watch\\?v=([\\w-]*)|vimeo.com\/([\\w-]*)
+URxvt*matcher.launcher.1:    youtube-viewer $0
+
+!Colors
+urxvt*background: #eeeeee
+urxvt*foreground: #000000
+#include "/home/milso/.xcolors/paper.Xresources"

@@ -1,0 +1,32 @@
+"dmenu_run -fn -*-smoothansi-*-*-*-*-13-*-*-*-*-*-*-* -nb '#000000' -nf '#FFFFFF' -sb '#7d7878'"
+	Mod4+p
+"emacs"
+	Mod4+w
+"scrot"
+	Print
+"touchpad"
+	XF86TouchpadToggle
+"xset dpms force off"
+	XF86Display
+"sudo pm-suspend"
+	XF86Sleep
+"sudo pm-hibernate"
+	XF86Suspend
+"mpc toggle"
+	XF86AudioPlay
+"mpc next"
+	XF86AudioNext
+"mpc prev"
+	XF86AudioPrev
+"mpc stop"
+	XF86AudioStop
+"mpc seek +"
+	XF86Forward
+"mpc seek -"
+	XF86Back
+"amixer set Master 5%+"
+	XF86AudioRaiseVolume
+"amixer set Master 5%-"
+	XF86AudioLowerVolume
+"amixer set Master toggle"
+	XF86AudioMute
